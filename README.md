@@ -10,7 +10,7 @@ Theme: simple-blue
 ![Simple Blue](https://github.com/user-attachments/assets/0842d217-c75f-46d2-853b-864b69f1d478)
 
 Theme: simple-green
-![Simple Green](https://github.com/user-attachments/assets/1aa40a09-e1f6-4aba-a731-4d0f6cb5213e)
+![Simple Green](https://github.com/user-attachments/assets/08fc82b6-bb3e-427e-a66c-2018d48cda16)
 
 Theme: simple-red
 ![Simple Red](https://github.com/user-attachments/assets/c8b65c86-7411-4211-b3a0-d79089b44654)
