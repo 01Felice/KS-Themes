@@ -1,1 +1,1 @@
-# KS-Themes
+# My simple KlipperScreen Themes
