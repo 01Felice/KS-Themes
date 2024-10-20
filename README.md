@@ -13,4 +13,4 @@ Theme: simple-red
 ![Simple Red](https://github.com/user-attachments/assets/283bec08-d932-4bfe-9c79-6271eba0e3ca)
 
 
-Respect the indipendant works of others, this style uses in part the styles colourized & material darker by Alfredo Monclus and 
+**Respect the indipendant works of others, this style uses in part the styles colourized & material darker by Alfredo Monclus and MoistDreams**
