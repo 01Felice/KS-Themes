@@ -1,0 +1,388 @@
+/* Simple-Green theme created by Helmut Daser 2024/10 v1.0 based on "Colorized" and "Material-darker" theme created by Alfredo Monclus 2021 and Icons modified by MoistDreams */
+@define-color color_1 #e2e2e2;
+@define-color color_2 #00A000;
+@define-color color_3 #009000;
+@define-color color_4 #9E9E9E;
+@define-color main #00A000;
+@define-color maindk #009000;
+@define-color bg #121212;
+@define-color btdk #2a2a2a;
+@define-color btbg #454545;
+@define-color active #626262;
+@define-color text #e2e2e2;
+@define-color text-inv black;
+@define-color echo #367554;
+@define-color warning #f9a825;
+@define-color error #981E1F;
+@define-color lines #cccccc;
+
+* {
+    color: @text;
+    font-family: RobotoMedium;
+}
+
+junction,
+list row,
+treeview.view,
+window {
+    background-color: @bg;
+}
+
+button {
+    background-color: @btdk;
+    border-radius: .25em;
+    padding: .25em;
+}
+
+button.color1,
+button.color2,
+button.color3,
+button.color4,
+button.update {
+    background-color: @btbg;
+    padding: .25em;
+    border-color: @main;
+    border-radius: .25em;
+    border-width: 0 0 .25em 0;
+}
+
+button.invalid {
+    background-color: @error;
+    padding: .25em;
+    border-color: @main;
+    border-radius: .25em;
+    border-width: 0 0 .25em 0;
+}
+
+.button_active,
+button.color1:active,
+button.color2:active,
+button.color3:active,
+button.color4:active,
+button.update:active,
+button.invalid:active,
+.dialog button:active {
+    background-color: @active;
+    padding-top: .35em;
+    padding-bottom: .4em;
+    border: 0;
+}
+
+.active image,
+button.active {
+    background-color: @active;
+}
+
+combobox button {
+    background-color: @btbg;
+    border-color: @main;
+    border-radius: .25em;
+    border-width: 0 0 .25em 0;
+}
+
+combobox arrow {
+    background-color: @btbg;
+}
+
+menu {
+    background-color: @btbg;
+    border-color: @active;
+    border-radius: .7em;
+    border-width: .15em;
+}
+
+menuitem {
+    background-color: @btbg;
+    border-color: @active;
+    border-radius: 0;
+    border-width: .15em;
+}
+
+menuitem:first-child  {
+    border-radius: .7em .7em 0 0;
+}
+
+menuitem:last-child  {
+    border-radius: 0 0 .7em .7em;
+}
+
+menuitem:hover {
+    background-color: @active;
+}
+
+treeview.view check,
+switch {
+    background-color: @btbg;
+}
+
+treeview.view check:checked,
+switch:checked {
+    background-color: @main;
+}
+
+treeview.view check:checked {
+    -gtk-icon-source: url("./styles/complete.svg");
+}
+
+label {
+    color: @text;
+}
+
+trough {
+    color: @text;
+    background-color: @btbg;
+    border-radius: .25em;
+}
+
+trough highlight,
+trough progress {
+    color: @text;
+    background-color: @main;
+    border-radius: .25em;
+}
+
+scale-mark {
+    color: @text;
+}
+
+scrollbar,
+scrollbar button,
+scrollbar trough {
+    background-color: @bg;
+}
+
+scrollbar slider {
+    background-color: @main;
+}
+
+textview .time {
+    color: #9E9E9E;
+}
+
+.active_device {
+    background-color: @active;
+}
+
+.buttons_slim {
+    padding: .15em 0;
+    border-color: @main;
+    border-style: solid;
+    border-width: 0 0 .25em 0;
+}
+
+.buttons_slim:active {
+    background-color: @active;
+    padding-top: .25em;
+    border-color: @active;
+    border-width: 0 0 .15em 0;
+}
+
+.dialog {
+    background-color: @bg;
+    border: 0;
+}
+
+.dialog button {
+    background-color: @btbg;
+    border-radius: .25em;
+    padding: .25em;
+    border-width: 0 0 .25em 0;
+}
+
+.dialog-error,
+.dialog-warning,
+.dialog-info,
+.dialog-default,
+.dialog-secondary,
+.dialog-primary {
+     border-bottom-color: @main;
+}
+
+.horizontal_togglebuttons {
+    background-color: @btbg;
+    border-color: @active;
+    border-width: .15em 0 .15em .15em;
+    border-radius: 0;
+    margin: .2em 0 .2em 0;
+    min-height: 2.9em;
+}
+
+.horizontal_togglebuttons_active {
+    background-color: @main;
+}
+
+.horizontal_togglebuttons:first-child {
+    border-radius: .75em 0 0 .75em;
+    margin-left: .2em;
+}
+
+.horizontal_togglebuttons:last-child {
+    border-radius: 0 .75em .75em 0;
+    border-right-width: .15em;
+    margin-right: .2em;
+}
+
+.fan_slider {
+    margin: 0 1em 0 1em;
+    color: @main;
+}
+
+.message {
+    border-color: @error;
+    color: @text;
+    background-color: @error;
+}
+
+.message button {
+    background-color: @text;
+    color: @bg;
+}
+
+.message_popup button {
+    background-color: @btbg;
+}
+
+.message_popup_echo,
+.message_popup_echo button {
+    background-color: @echo;
+    color: @btbg;
+}
+
+.message_popup_warning,
+.message_popup_warning button {
+    background-color: @warning;
+}
+
+.message_popup_error,
+.message_popup_error button {
+    background-color: @error;
+}
+
+.printing-status {
+    color: @text;
+}
+
+.printing-progress-text {
+    color: @text;
+}
+
+.printing-status-label {
+    color: @text;
+}
+
+.filament_sensor {
+    border-radius: 3em;
+    margin: .2em;
+}
+
+.filament_sensor switch {
+    margin: 0em;
+}
+
+.filament_sensor_detected {
+    background-color: @active;
+}
+
+.filament_sensor_empty {
+    background-color: @btbg;
+}
+
+flowboxchild {
+    padding: 0;
+}
+
+flowbox button {
+    background-color: @bg;
+    margin: .1em;
+    padding: .5em;
+}
+
+.graph_label {
+    border-left-width: .4em; 
+    border-left-style: solid;
+}
+
+button.graph_label {
+    padding-left: .2em;
+}
+
+.numpad_key {
+    background-color: @btbg;
+    border-color: @active;
+    border-width: .15em;
+    border-style: solid;
+}
+
+.numpad_tleft {
+    border-bottom: 0;
+    border-right: 0;
+    border-radius: .7em 0 0 0;
+    margin: .15em 0 0 .15em;
+}
+
+.numpad_top {
+    border-bottom: 0;
+    border-right: 0;
+    border-radius: 0;
+    margin: .15em 0 0 0;
+}
+
+.numpad_tright {
+    border-bottom: 0;
+    border-radius: 0 .7em 0 0;
+    margin: .15em .15em 0 0;
+}
+
+.numpad_left {
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: 0;
+    margin: 0 0 0 .15em;
+}
+
+.numpad_button {
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: 0;
+    margin: 0;
+}
+
+.numpad_right {
+    border-bottom: 0;
+    border-radius: 0;
+    margin: 0 .15em 0 0;
+}
+
+.numpad_bleft {
+    border-right: 0;
+    border-radius: 0 0 0 .7em;
+    margin: 0 0 .15em .15em;
+}
+
+.numpad_bottom {
+    border-right: 0;
+    border-radius: 0;
+    margin: 0 0 .15em 0;
+}
+
+.numpad_bright {
+    border-radius: 0 0 .7em 0;
+    margin: 0 .15em .15em 0;
+}
+
+.keyboard_pad {
+    background-color: @btbg;
+    border-color: @active;
+    margin: .1em;
+    padding: .1em;
+    border-radius: .7em;
+}
+
+entry {
+    font-size: 1em;
+    background-color: @btbg;
+    border: .15em solid @active;
+    padding: .25em;
+    border-radius: .25em;
+    margin: .2em;
+}
