@@ -6,6 +6,8 @@ To install, copy the three folders into the klipperScreen/styles folder, I using
 
 **Many thanks of others for the works, this style uses in part the styles colourized & material darker by Alfredo Monclus and MoistDreams for the Icons.**
 
+2025.12.31: Add different Icons.
+
 Theme: simple-blue
 ![Simple Blue](https://github.com/user-attachments/assets/0842d217-c75f-46d2-853b-864b69f1d478)
 
