@@ -63,7 +63,7 @@ button.update:active,
 button.invalid:active,
 .dialog button:active {
     background-color: @active;
-    padding-top: .35em;
+    padding-top: .25em;
     padding-bottom: .4em;
     border: 0;
 }
