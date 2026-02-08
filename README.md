@@ -8,7 +8,7 @@ To install, copy the three folders into the KlipperScreen/styles folder, I using
 
 2025/12/31: Add different Icons.
 
-2025/02/08: Button jump fix.
+2026/02/08: Button jump fix.
 
 Theme: simple-blue
 ![Simple Blue](https://github.com/user-attachments/assets/0842d217-c75f-46d2-853b-864b69f1d478)
