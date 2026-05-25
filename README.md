@@ -10,6 +10,9 @@ To install, copy the three folders into the KlipperScreen/styles folder, I using
 
 2026/02/08: Button jump fix.
 
+2026/05/25: Add Icons for Spoolman.
+
+
 Theme: simple-blue
 ![Simple Blue](https://github.com/user-attachments/assets/0842d217-c75f-46d2-853b-864b69f1d478)
 
